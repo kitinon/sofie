@@ -1,5 +1,5 @@
 const fillTemplate = function(templateString, templateVars){
-  return new Function("return `"+templateString +"`;").call(templateVars)
+  return new Function(`return \`${templateString}\``).call(templateVars)
 }
 
 export default class {

@@ -1,6 +1,6 @@
 import Sofie from './sofie.js'
 
-const app = new Sofie('Hello, ${this.name}!')
+const app = new Sofie('<h1>Hello, ${this.name}!</h1>')
 
 const body = document.getElementsByTagName('body')[0]
 
