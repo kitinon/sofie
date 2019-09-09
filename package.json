@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "htmlparser": "^1.7.7",
     "serve": "^11.1.0"
   }
 }
